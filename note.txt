@@ -1,0 +1,47 @@
+echo "# third-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/probir-kumar/third-project.git
+git push -u origin main
+
+
+
+
+/*****************************************
+**** Update code in github Repositories===
+******************************************/
+git add .
+git commit -m "Little change are done here"
+git push
+
+
+/*****************************************
+**** From github to local pc===
+******************************************/
+git pull
+
+
+/*****************************************
+**** Create a Branch ****
+******************************************/
+
+git checkout -b add scroll-feature
+
+git checkout main
+git checkout develop
+
+
+
+/*****************************************
+		Command
+******************************************/
+
+git config user.name
+git config user.email
+
+
+git branch -a
+
+gh-pages 	// for creating site view in github
